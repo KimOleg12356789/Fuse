@@ -1,0 +1,707 @@
+
+@media(max-height: 800px){
+
+.video-bl img {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program-cont.is.current {
+    max-height: 600px;
+}
+
+}
+
+@media screen and (min-height: 600px) and (max-height: 1600px){
+
+.video-bl img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+}
+
+
+@media (min-width: 1900px) {
+
+.right-colum-slids {
+    width: 83%;
+    margin: 0 0 0 5px;
+}
+
+.program-cont.is {
+    display: none;
+    width:100%;
+}
+
+a.filsms-is {
+    width: auto;
+    background: #1a1a1a;
+    margin: 0 5px 5px 0;
+    padding: 15px 10px;
+    line-height: 57px;
+    border-radius: 6px;
+    border: 0px solid transparent;
+    font-family: 'HelveticaBold';
+    color: #fff;
+}
+
+a.filsms-is.is2 {
+    width: 65%;
+}
+
+a.filsms-is.is {
+    width: auto;
+}
+
+a.like-bl {
+    width: auto;
+    background: url(../images/films-tit-img-y.png)left top repeat-y #333;
+    margin: 0 10px 11px 0;
+    padding: 22px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+}
+
+@media (min-width: 960px) {
+    
+.container.is {
+    max-width:100%!important;
+}
+
+}
+
+@media (min-width: 576px){
+.container.is {
+    max-width: 100%!important;
+}
+
+}
+
+@media screen and (max-width: 1870px) {
+
+button.slick-next.slick-arrow {
+    background: url(../images/arrow-r.png)left top no-repeat;
+    width: 48px;
+    height: 56px;
+    top: 50%;
+    position: fixed;
+    right: 2%;
+}
+
+}
+
+@media screen and (max-width: 1366px) {
+
+button.slick-next.slick-arrow{
+    
+position: fixed;
+    
+top: 50%;
+    
+right: 3%;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+button.slick-next.slick-arrow {
+    top: 50%;
+    right: 2%;
+}
+
+.menu-cont {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+a.like-bl{
+    border-radius: 6px;
+    background: url(../images/films-tit-img-y.png)left top repeat-y #1b1b1b;
+}
+
+a.like-bl:after {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    top: 5px;
+    right: 0;
+    content: '';
+    background:none;
+    width: 269px;
+    height: auto;
+    z-index: -1;
+}   
+
+a.like-bl:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 3px;
+    right: 0;
+    content: '';
+    background:none;
+    width: inherit;
+    height: auto;
+    z-index: -1;
+}   
+
+a.filsms-is.is2 {
+    width: 271px;
+}
+
+a.filsms-is.is3 {
+    width: 42%;
+}   
+
+a.filsms-is.is {
+}
+
+.program-cont.is {
+    display: none;
+    width:100%;
+}
+
+.slid-is {
+    /* width: 70%; */
+}
+
+.cont-tit-is {
+    flex-wrap: wrap;
+}   
+
+
+}
+
+@media screen and (max-width: 1160px) {
+
+a.filsms-is {
+}
+
+a.filsms-is.is3 {
+    width: 38%;
+}
+
+.right-colum-slids {
+    width: 75%;
+    margin: 0 0 0 5px;
+}
+
+button.slick-next.slick-arrow {
+    right: 2%;
+}
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+.right-colum-slids {
+    width: 72%;
+    margin: 0 0 0 5px;
+}
+  
+}
+
+@media screen and (max-width: 992px) {
+
+.program-cont.is{
+    max-height: 500px !important;
+}
+
+
+.cont-time-1 {
+    width: 35%;
+}
+
+.cont-time-2 {
+    width: 45%;
+}
+
+a.like-bl {
+}
+
+a.filsms-is.is2 {
+    width: 28%;
+}
+
+a.filsms-is.is {
+}
+
+a.filsms-is.is3 {
+    width: 46%;
+}
+
+.tv-is {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 40px 22px;
+}
+
+.tv-is a {
+    font-size: 15px;
+    color: #999999;
+    font-family: 'HelveticaBold';
+    margin: 0 15px 10px;
+    width: 100%;
+}    
+
+.tv-news {
+    display: none;
+}
+
+.burger svg.is {
+}
+  
+
+.burger {
+  display: block;
+}
+
+.menu-vid {
+    width: 100%;
+    margin: 0 10px 0 0;
+}
+
+.rows {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+.dropdown-wrapper ul.dropdown-menu2 {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0px 5px 15px rgb(36 35 33 / 7%);
+    display: flex;
+    max-height: fit-content;
+    overflow-y: auto;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    text-align: left;
+    margin: 0 0 25px;
+}
+
+.menu-cont {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+li.current{
+     background-color: #f7c71e;
+     border-radius: 20px;
+     cursor: pointer;
+     color: #000 !important;
+     border: 1px solid transparent !important;
+}
+    
+span.num {
+    display: none;
+}
+
+.dropdown-menu2 li:hover{
+    background-color: #f7c71e;
+    border-radius:20px;
+    cursor:pointer;
+    color:#000;
+    border: 1px solid transparent !important;
+}    
+    
+.dropdown-menu2 li {
+    border: 1px solid #999999;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+    padding: 0px 15px;
+    font-family: 'HelveticaBold';
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 34px;
+    margin: 0 3px 5px;
+}
+
+ul.dropdown-menu2 li:first-child {
+    display:none;
+}
+
+a.filsms-is {
+    /* text-align: center; */
+    /* background: #1a1a1a; */
+    /* margin: 0 0px 11px 0; */
+    /* padding: 10px 10px; */
+    /* line-height: inherit; */
+    /* border-radius: 6px; */
+    /* border: 2px solid transparent; */
+    /* font-family: 'HelveticaBold'; */
+    /* color: #fff; */
+}
+  
+}
+
+@media screen and (max-width: 880px) {
+
+.right-colum-slids {
+    width: 68%;
+    margin: 0 0 0 5px;
+}
+
+}
+@media screen and (max-width: 802px) {
+
+.right-colum-slids {
+    width: 60%;
+    margin: 0 0 0 5px;
+}
+
+button.slick-next.slick-arrow {
+    right: 3%;
+}
+
+.cont-time-4 {
+    display: none;
+}
+
+.right-colum-slids {
+    width: 100%;
+    margin: 0 0 0 5px;
+}
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+
+.tv-wor-img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.tv-wor-text {
+    width: auto;
+}
+
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+
+button.slick-next.slick-arrow {
+    right: 4%;
+}
+
+.cont-tit:before {
+    position: absolute;
+    left: 130px;
+    top: 8px;
+    content: 'сейчас проигрываеться';
+    width: 185px;
+    line-height: 54px;
+    z-index: -4;
+    height: 46px;
+    color: #808080;
+    font-size: 11px;
+    background: url(../images/li-is.png)136px 0px no-repeat;
+}
+
+.cont-tit:after {
+    position: absolute;
+    left: 271px;
+    bottom: 0;
+    top: 21px;
+    height: 1000000%;
+    z-index: 99999;
+    content: '';
+    color: #808080;
+    font-size: 11px;
+    border-right: 1px solid #7c640f;
+}
+
+.left-colum-slids {
+    width: 24%;
+    margin: 0;
+}
+
+a.like-bl{
+    /* width: 155px; */
+}
+
+.tv-tit {
+    color: #f7c71e;
+    font-family: 'HelveticaBold';
+    font-size: 20px;
+}
+
+.tv-text {
+    font-family: 'HelveticaBold';
+    font-size: 20px;
+    color: #fff;
+}
+
+.tv-wor-img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.tv-wor-text {
+    width: auto;
+}
+
+span.filims-tit {
+    font-size: 11px;
+}
+
+li.filsms-bl {
+    display: flex;
+    width: 125%;
+}
+
+span.num {
+    display: none;
+}
+
+a.like-bl {
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 92.4px;
+    justify-content: center;
+    /* width: 20%; */
+    align-items: center;
+    width: 100%;
+}
+
+span.like-num {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.cont-time {
+    /* display: none; */
+}
+
+div#it {
+    display: block;
+}
+
+a.filsms-is {
+    /* width: 37%; */
+    padding: 36px 10px;
+}
+
+span.like-tit {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}   
+
+span.like-is {
+    position: relative;
+    background: url(../images/like-img.png)center top no-repeat;
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin: 2px;
+    order: 1;
+    width: 100%;
+} 
+
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+
+button.slick-next.slick-arrow {
+    right: 4%;
+}
+
+.right-colum-slids {
+    /* display: flex; */
+    width: 85%;
+    margin: 0 0 0 5px;
+}
+
+.left-colum-slids {
+    width: 100%;
+    margin: 0;
+}
+
+.cont-time-1 {
+    width: 45%;
+}
+
+.cont-time-2 {
+    width: 25%;
+}
+
+.cont-time-is {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'HelveticaRegular';
+    margin: 0 0 35px 0;
+}
+
+.cont-tit:before {
+    position: absolute;
+    left: 73px;
+    top: 8px;
+    content: '';
+    width: 185px;
+    line-height: 54px;
+    z-index: -4;
+    height: 46px;
+    color: #808080;
+    font-size: 11px;
+    background: url(../images/li-is.png)136px 0px no-repeat;
+}
+
+.cont-tit:after {
+    position: absolute;
+    left: 214px;
+    bottom: 0;
+    top: 21px;
+    height: 1000000%;
+    z-index: 99999;
+    content: '';
+    color: #808080;
+    font-size: 11px;
+    border-right: 1px solid #7c640f;
+}
+
+.prog-canl {
+    display: none;
+}
+
+.cont-tit {
+    /* display: none; */
+    color: transparent;
+}
+
+a.filsms-is {
+    /* width: 75%; */
+    padding: 17px;
+    min-height: 74px;
+}
+
+a.filsms-is.is {
+    padding: 18px 10px;
+    min-height: 74px;
+}
+
+a.filsms-is.is44 {
+    padding: 7px 0;
+    min-height: 62px;
+}
+
+a.like-bl {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 84px;
+    align-items: center;
+    height: 74px;
+    padding: 2px;
+}
+span.like-is {
+    position: relative;
+    background: url(../images/like-img.png)center top no-repeat;
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin: 0;
+    order: 1;
+    width: 100%;
+}
+span.like-tit {
+    text-align: center;
+    font-size: 9px;
+}   
+
+span.like-num {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+li.filsms-bl {
+    display: flex;
+    width: 125%;
+}
+
+a.filsms-is.is3 {
+    width: 65%;
+}
+  
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+
+.tv-wor-img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.tv-wor-text {
+    width: auto;
+}
+
+button.slick-next.slick-arrow {
+    right: 4%;
+}
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+.cont-time-1 {
+    width: 80%;
+}
+
+a.filsms-is {
+    padding: 11px;
+    min-height: 74px;
+}
+
+}
